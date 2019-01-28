@@ -30,7 +30,6 @@ def count(name):
 # print(character)
 x, y = count(name)
 z = x[y]
-print(count(name))
 print(z)
 
 # objects = [("chaddi", 800),

@@ -1,10 +1,18 @@
+# this file contains basics about classes in python
+
+
 class Point:
+    # attributes of this class
     x = 0
     y = 0
+# this is classmethod and there is no need for making instance of this class to invoke this function
+# and can be directly called by "Class_Name.method_name()""
 
     @classmethod
     def ones(cls):
         return cls(1, 1)
+# __init__ is a type of magic method and is called automatically when
+# we create an instance of this class
 
     def __init__(self, x, y):
         self.x = x
